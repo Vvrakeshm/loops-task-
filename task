@@ -1,0 +1,5 @@
+# printing even numbers in the given range with using for loop only
+a=int(input("enter a :"))
+b=int(input("enter b :"))
+for i in range(a,b+1,2):
+    print(i)
